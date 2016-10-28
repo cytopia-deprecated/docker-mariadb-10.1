@@ -72,7 +72,7 @@ script:
       -e DEBUG_COMPOSE_ENTRYPOINT=1
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -95,7 +95,7 @@ script:
       -p 127.0.0.1:3306:3306
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -122,7 +122,7 @@ script:
       -e MYSQL_GENERAL_LOG=1
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -153,7 +153,7 @@ script:
       -e MYSQL_GENERAL_LOG=1
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -188,7 +188,7 @@ script:
       -e DEBUG_COMPOSE_ENTRYPOINT=1
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -217,7 +217,7 @@ script:
       -v /tmp/mysql-conf:/etc/mysql/conf.d
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -247,7 +247,7 @@ script:
       -e DEBUG_COMPOSE_ENTRYPOINT=1
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -273,7 +273,7 @@ script:
       -e MYSQL_SOCKET_DIR=/usr/local/mysqld-sock
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -304,7 +304,7 @@ script:
       -e DEBUG_COMPOSE_ENTRYPOINT=1
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -322,7 +322,7 @@ script:
       -e DEBUG_COMPOSE_ENTRYPOINT=1
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -343,7 +343,7 @@ script:
       -e MYSQL_SOCKET_DIR=/usr/local/mysqld-sock
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
@@ -361,7 +361,7 @@ script:
       -e DEBUG_COMPOSE_ENTRYPOINT=1
       -e MYSQL_ROOT_PASSWORD=${MY_MYSQL_PASS}
       --name ${MY_DOCKER_NAME} cytopia/${MY_DOCKER_NAME} &
-  - sleep 15
+  - sleep 25
 
   - docker ps
 
