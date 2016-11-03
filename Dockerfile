@@ -13,7 +13,7 @@ LABEL \
 	image="mariadb-10.1" \
 	vendor="cytopia" \
 	license="MIT" \
-	build-date="2016-10-28"
+	build-date="2016-11-03"
 
 
 ##
