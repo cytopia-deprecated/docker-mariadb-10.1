@@ -383,7 +383,7 @@ script:
   - cd devilbox
   - cp env-example .env
   - sed -i'' '^MYSQL_SERVER=/#MYSQL_SERVER=/g' .env
-  - echo "MYSQL_SERVER=cytopia/${MY_DOCKER_NAME}" >> .env
+  - echo "MYSQL_SERVER=${MY_DOCKER_NAME}" >> .env
   - docker-compose up -d
   - sleep 30
   - docker-compose logs
