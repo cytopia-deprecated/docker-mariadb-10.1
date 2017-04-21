@@ -382,7 +382,7 @@ script:
   - git clone -v https://github.com/cytopia/devilbox
   - cd devilbox
   - cp env-example .env
-  - sed -i'' '^MYSQL_SERVER=/#MYSQL_SERVER=/g' .env
+  - sed -i'' 's/^MYSQL_SERVER=/#MYSQL_SERVER=/g' .env
   - echo "MYSQL_SERVER=${MY_DOCKER_NAME}" >> .env
   - docker-compose up -d
   - sleep 30
