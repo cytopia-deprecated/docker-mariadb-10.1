@@ -1,6 +1,6 @@
 # MariaDB 10.1 Docker
 
-<small>**Latest build:** 2017-04-23</small>
+<small>**Latest build:** 2017-05-17</small>
 
 [![Build Status](https://travis-ci.org/cytopia/docker-mariadb-10.1.svg?branch=master)](https://travis-ci.org/cytopia/docker-mariadb-10.1) [![](https://images.microbadger.com/badges/version/cytopia/mariadb-10.1.svg)](https://microbadger.com/images/cytopia/mariadb-10.1 "mariadb-10.1") [![](https://images.microbadger.com/badges/image/cytopia/mariadb-10.1.svg)](https://microbadger.com/images/cytopia/mariadb-10.1 "mariadb-10.1") [![](https://images.microbadger.com/badges/license/cytopia/mariadb-10.1.svg)](https://microbadger.com/images/cytopia/mariadb-10.1 "mariadb-10.1")
 
@@ -124,4 +124,4 @@ Configuration files inside this docker are read in the following order:
 
 **[Version]**
 
-mysqld  Ver 10.1.22-MariaDB for Linux on x86_64 (MariaDB Server)
+mysqld  Ver 10.1.23-MariaDB for Linux on x86_64 (MariaDB Server)
